@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Demon - Online Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #ff2d55;
+      font-size: 2rem;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #ff2d55;
+    }
+
+    .hero {
+      padding: 80px 40px;
+      text-align: center;
+      background: linear-gradient(to right, #2c003e, #1f0027);
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      padding: 60px 40px;
+      background-color: #181818;
+    }
+
+    .product-card {
+      background-color: #222;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .product-card h3 {
+      color: #ff2d55;
+      margin-bottom: 10px;
+    }
+
+    .product-card p {
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.95rem;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    footer a {
+      color: #ff2d55;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Demon</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to Demon</h2>
+    <p>Your one-stop shop for exclusive gear & style with attitude.</p>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://images.teemill.com/bac18bdb1bf5bd7f1851b3e3b65e6b3473ee6a441ff8fa0f.png.webp?w=1080&v=2" alt="Product 1" />
+      <h3>Demon Tee</h3>
+      <p>Black tee with bold Demon logo. $8.99</p>
+    </div>
+    <div class="product-card">
+      <img src="https://images.teemill.com/ebedbbf822ecc674cdac41b910ba06b2d273cdb5571b5693.png.webp?w=480&v=2" alt="Product 2" />
+      <h3>shadow sweater</h3>
+      <p>Dark hoodie for late-night vibes. $15.99</p>
+    </div>
+    <div class="product-card">
+      <img src="https://images.teemill.com/ca692efd8833a9d150197820a17100009ac6d6e89493a7b9.png.webp?w=480&v=2" alt="Product 3" />
+      <h3>demon t-shirt</h3>
+      <p>Flame-designed cap for streetwear kings. $19.99</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact us: <a href="mailto:techinators.2012@gmail.com">techinators.2012@gmail.com</a></p>
+    <p>Call us: <a href="tel:+447787758343">07787758343</a></p>
+    <p>&copy; 2025 Demon Online Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
